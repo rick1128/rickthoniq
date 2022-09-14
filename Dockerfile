@@ -1,7 +1,7 @@
 FROM lMl10l/userbot:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/rogerpq/Repthon_userboot.git /root/jepthon
+RUN git clone https://github.com/rogerpq/Repthon_userboot.git/tree/master.git /root/jepthon
 #working directory 
 WORKDIR /root/jepthon
 
