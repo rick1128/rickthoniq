@@ -60,7 +60,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس لا تغيره ابدا",
-      "value": "https://github.com/rogerpq/Repthon_userboot",
+      "value": "Rep",
       "required": false
     }
   },
