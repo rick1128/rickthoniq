@@ -7,7 +7,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/rogerpq/Repthon_userbot/",
+  "repository": "https://github.com/rogerpq/Repthon_userboot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -60,7 +60,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس لا تغيره ابدا",
-      "value": "https://github.com/rogerpq/Repthon_userbot",
+      "value": "https://github.com/rogerpq/Repthon_userboot",
       "required": false
     }
   },
