@@ -12,27 +12,27 @@
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": " ضع اسم التلكرام ",
+      "description": "هنا ضع اسم التلجرام الخاص بك",
       "value": ""
     },
     "APP_ID": {
-      "description": "ضع الايبي ايدي 8 ارقام الخـاص بـك", 
+      "description": "هنا ضع الايبي ايدي الخاص بك يتكون من 8 ارقام", 
       "value": ""
     },
     "API_HASH": {
-      "description": " ضع الايبي هاش الخاص بك",
+      "description": "هنا ضع الايبي هاش الخاص بك",
       "value": ""
     },
     "ENV": {
-      "description": "لاتغير شي",
+      "description": "لا تغير هذه القيمه",
       "value": "ANYTHING"
     },
     "COMMAND_HAND_LER": {
-      "description": "لاتغير شي",
+      "description": "لا تغير هذه القيمه",
       "value": "."
     },
     "STRING_SESSION": {
-      "description": "هنا ضع كود كود تيرمكس الخاص بك",
+      "description": "هنا ضع كود تيرمكس الخاص بك",
       "value": ""
     },
     "TG_BOT_USERNAME": {
@@ -77,7 +77,9 @@
   },{
     "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
   },{
-    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
   },{
     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
   },{
