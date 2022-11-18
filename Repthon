@@ -85,7 +85,7 @@ _set_bot () {
     echo "   ツ جار بدء ريبثون ツ    "
     echo "
     "
-    python3 -m jepthon
+    python3 -m Repthon
 }
 
 _set_bot
