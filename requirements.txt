@@ -1,4 +1,5 @@
 telethon
+aiohttp
 py-tgcalls==0.9.1
 setuptools
 wheel
@@ -7,12 +8,10 @@ tgcrypto
 pymongo[srv]
 speechrecognition
 aiofiles
-aiohttp
 beautifulsoup4
 cairosvg
 cfscrape
 coffeehouse==2.2.4
-colour
 covid
 cowpy
 cryptg
@@ -60,7 +59,6 @@ pytuneteller
 pytz
 qrcode
 regex
-requests
 search-engine-parser
 selenium
 spamwatch
@@ -76,4 +74,16 @@ wikipedia
 youtube_dl
 youtube-search-python
 yt_dlp
+emoji==1.7.0
+pydub
+git+https://github.com/buddhhu/img2html.git
+git+https://github.com/yt-dlp/yt-dlp
+moviepy
+markdown-it-py
+pyTelegramBotAPI==3.7.7
+telethon-session-sqlalchemy
+youtube-search
+youtube-search-python==1.4.9
+googletrans==3.1.0a0
+git+https://github.com/redaiq90/webcolors
 git+https://github.com/cinemagoer/cinemagoer
