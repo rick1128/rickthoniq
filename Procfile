@@ -1,1 +1,3 @@
-worker: bash Repthon
+worker: bash start
+web: bash start
+
