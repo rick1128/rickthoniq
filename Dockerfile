@@ -1,13 +1,9 @@
-FROM ZQ_LO/userbot:slim-buster
+FROM python:3.8-slim-buster
+WORKDIR /app
+RUN apk add --update --no-cache p7zip
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
 
-#clonning repo 
-RUN git clone https://github.com/rogerpq/RepthonAr.git /root/Repthon
-#working directory 
-WORKDIR /root/Repthon
+COPY . .
 
-# Install requirements
-RUN pip3 install --no-cache-dir -r requirements.txt
-
-ENV PATH="/home/userbot/bin:$PATH"
-
-CMD ["python3","-m","jepthon"]
+CMD ["bash","start"]
