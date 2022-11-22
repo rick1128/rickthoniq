@@ -13,8 +13,8 @@
 [![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://replit.com/@taabn-tabantaba/CodeTelethon-1?v=1)
 - Get your `API_ID` and `API_HASH` from [here](https://my.telegram.org/)    
 
-### Deploying To Heroku ⚙
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rogerpq/Repthonrp)
+### Deploying To Koyeb ⚙
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/rogerpq/zq_lo&branch=main&name=repthon&env[APP_ID]=ضع_ابب_ايدي&env[API_HASH]=ضع_ايبي_هاش&env[ENV]=ANYTHING&env[DATABASE_URL]=قاعدة_البيانات&env[STRING_SESSION]=كود_تريمكس&env[TG_BOT_USERNAME]=معرف_البوت&env[TG_BOT_TOKEN]=توكن_البوت&env[ALIVE_NAME]=اسم_المستخدم)
 
 # Licence 📋
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
