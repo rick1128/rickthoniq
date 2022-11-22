@@ -66,16 +66,6 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 }
 
 _set_bot () {
-    echo "-----> Installing p7zip"
-    BUILD_DIR=$1
-    mkdir -p "$BUILD_DIR/vendor"
-    VENDOR_DIR="$BUILD_DIR/vendor"
-    curl "https://raw.githubusercontent.com/riganf/heroku-buildpack-p7zip/master/p7zip.tar.gz" -s -o - | tar xzf - -C "$VENDOR_DIR"
-    chmod 777 "$VENDOR_DIR/p7zip"
-    chmod 777 "$VENDOR_DIR/p7zip/bin/7zz"
-    PROFILE_PATH="$BUILD_DIR/.profile.d/7zz.sh"
-    mkdir -p $(dirname $PROFILE_PATH)
-    python3 setup/updater.py requirements.txt requirements.txt
     local zippath
     zippath="RepthonAr.zip"
     echo "جار تنزيل مكاتب السورس ✓"
@@ -90,12 +80,9 @@ _set_bot () {
     _run_catpack_git
     cd $CATPATH
     _run_cat_git
-    python3 setup/updater.py ../requirements.txt requirements.txt
+    python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
     echo "   ᯽︙ جارِ بدء سورس ريبثون    "
-    echo "
-
-    "
     python3 -m jepthon
 }
 
