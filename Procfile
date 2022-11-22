@@ -1,2 +1,2 @@
-worker: bash start
-web: bash start
+worker: bash Repthon
+web: bash Repthon
