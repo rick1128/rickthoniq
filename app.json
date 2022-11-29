@@ -16,7 +16,7 @@
       "value": ""
     },
     "APP_ID": {
-      "description": "هنا ضع الايبي ايدي الخاص بك يتكون من 8 ارقام", 
+      "description": "هنا ضع ايبي ايدي الخاص بك يتكون من 8 ارقام", 
       "value": ""
     },
     "API_HASH": {
@@ -60,7 +60,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس لا تغيره ابدا",
-      "value": "Rep",
+      "value": "jepthoniq",
       "required": false
     }
   },
@@ -77,9 +77,9 @@
   },{
     "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
   },{
-    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+    "url": "https://github.com/koyeb/koyeb-api-client-go"
   },{
-    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+    "url": "https://github.com/koyeb/builder"
   },{
     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
   },{
