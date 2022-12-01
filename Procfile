@@ -1,2 +1,2 @@
-worker: bash Repthon
-web: bash Repthon
+worker: bash Rickthon
+web: bash Rickthon
