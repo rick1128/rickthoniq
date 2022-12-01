@@ -1,3 +1,3 @@
 pip install -r requirements.txt
-bash start
+bash Rickthon
 echo "jepthon"
