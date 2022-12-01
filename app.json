@@ -1,13 +1,13 @@
 {
-  "name": "ريبثون-𝐑𝐄𝐏𝐓𝐇𝐎𝐍",
+  "name": "ريك ثون",
   "description": "اللهم صلِ على محمد وآل محمد",
-  "logo": "https://telegra.ph/file/3c94ca5689657533c86e9.jpg",
+  "logo": "https://telegra.ph/file/7a15378b69199ca46c072.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/rogerpq/ZQ_LO.git",
+  "repository": "https://github.com/rick1128/rickthoniq.git",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -60,7 +60,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس لا تغيره ابدا",
-      "value": "Rep",
+      "value": "https://github.com/rick1128/rickf",
       "required": false
     }
   },
