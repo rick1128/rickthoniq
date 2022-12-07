@@ -1,0 +1,50 @@
+{
+    "name": "سورس ريك ثون",
+    "description": "اللهم صل على محمد وآل محمد",
+    "addons": ["scalingo-postgresql"],
+    "keywords": ["rickthon", "userbot","scalingo"],
+    "repository": "https://github.com/rick1128/rickthoniq",
+  "stack": "container",
+    "env": {
+        "ALIVE_NAME": {
+            "description": "ضع اسم حسابك التلي",
+            "required": true,
+            "value":""
+        },
+        "APP_ID": {
+            "description": "هنا ضع الابب ايدي",
+            "required": true,
+            "value":""
+        },
+        "API_HASH": {
+            "description": "هنا ضع ايبي هاش",
+            "required": true,
+            "value":""
+        },
+        "STRING_SESSION": {
+            "description": "هنا ضع كود التيرمكس",
+            "required": true
+        },
+        "TG_BOT_TOKEN": {
+            "description": "هنا ضع التوكن بوت",
+            "required": true,
+            "value":""
+        },
+         "TG_BOT_NAME": {
+            "description": "هنا ضع يوزر البوت",
+            "required": true,
+            "value":""
+        },
+        "TZ": {
+            "description": "ضع هنا المنطقة الزمنية لبلدك",
+            "required": true,
+            "value": "Asia/Baghdad"
+        },
+        "ENV": {
+            "description": "لا تغيره نهائيا",
+            "required": true,
+            "value": "ANYTHING"
+        }
+
+    }
+  }
