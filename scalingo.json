@@ -1,5 +1,4 @@
-
- {
+{
      "name": "سورس ريك ثون",
      "description": "اللهم صل على محمد وآل محمد",
      "addons": ["scalingo-postgresql"],
