@@ -1,5 +1,5 @@
 {
-  "name": "ريك ثون",
+  "name": "RICKTHON USERBOT",
   "description": "اللهم صلِ على محمد وآل محمد",
   "logo": "https://telegra.ph/file/7a15378b69199ca46c072.jpg",
   "keywords": [
@@ -7,7 +7,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/rick1128/rickthoniq.git",
+  "repository": "https://github.com/rick1128/rickthoniq/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -16,7 +16,7 @@
       "value": ""
     },
     "APP_ID": {
-      "description": "هنا ضع ايبي ايدي الخاص بك يتكون من 8 ارقام", 
+      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
       "value": ""
     },
     "API_HASH": {
@@ -27,12 +27,8 @@
       "description": "لا تغير هذه القيمه",
       "value": "ANYTHING"
     },
-    "COMMAND_HAND_LER": {
-      "description": "لا تغير هذه القيمه",
-      "value": "."
-    },
     "STRING_SESSION": {
-      "description": "هنا ضع كود تيرمكس الخاص بك",
+      "description": "هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك",
       "value": ""
     },
     "TG_BOT_USERNAME": {
@@ -43,24 +39,9 @@
       "description": "هنا ضع توكن بوتك الذي صنعته",
       "value": ""
     },
-    "HEROKU_API_KEY": {
-      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
-      "value": "",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "اسم التطبيق اول مربع كتبته خلي هنا نفسه وحروف صغيره",
-      "value": "",
-      "required": false
-    },
     "TZ": {
       "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
       "value": "Asia/Baghdad",
-      "required": false
-    },
-    "UPSTREAM_REPO": {
-      "description": "رمز السورس لا تغيره ابدا",
-      "value": "https://github.com/rick1128/rickf",
       "required": false
     }
   },
